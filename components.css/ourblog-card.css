@@ -1,0 +1,30 @@
+.blog-card .col-2{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-top: 24px;
+}
+.blog-card .col-2 .title{
+    color: #0A2640;
+    font-weight: 700;
+}
+.blog-card .col-2 .date{
+    color: #777777;
+}
+.blog-card .col-3 p{
+    color: black;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 12px;
+    align-items: center;
+}
+.blog-card .col-4{
+    margin-top: 48px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.blog-card .col-4 p{
+    color: #000000;
+    margin-bottom: 0px;
+}

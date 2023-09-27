@@ -1,0 +1,26 @@
+.site-header {
+    margin: 56px auto;
+}
+
+.site-header .row {
+    display: flex;
+    gap: 654px;
+    align-items: center;
+}
+
+.site-header .nav p {
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.site-header .nav .btn {
+    padding: 8px 40px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.site-header .nav {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}

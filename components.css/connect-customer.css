@@ -1,59 +1,144 @@
-.connect-customer{
-    padding-top:120px ;
-}
-.connect-customer .col-1{
-    display: flex;
-    align-items: center;
-    gap: 150px;
-    margin-left: 60px;
-    margin-right: 60px;
-}
-.connect-customer .col-1 .row-2 .check-list .list{
-    display: flex;
-    align-items: center;
-    gap: 27px;
-    margin-bottom: 24px;
-}
-.connect-customer .col-1 .row-2 .check-list .list p{
-    margin-bottom: 0px;
-}
-.connect-customer .col-1 .row-2 h3{
-    padding-bottom: 40px;
-}
-.connect-customer .col-1 .row-2 .btn-wrap{
-    padding-top: 56px;
-}
-/* col-2 */
-.connect-customer .col-2 {
-    display: flex;
-    align-items: center;
-    gap:150px ;
-    margin: 120px 60px;
-}
-.connect-customer .col-2 .row-1 h3{
-    margin-bottom: 62px;
-}
-.connect-customer .col-2 .row-1 .box-list .list{
-    display: flex;
-    gap:14px;
-    align-items: center;
-    background-color: #0A2640;
-    color: #ffffff;
-    padding: 16px 56px 16px 22px;
-    border-radius: 4px;
-    box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.08);
-    margin-bottom: 24px;
-    width: 500px;
-}
-.connect-customer .col-2 .row-1 .box-list .list-2{
-    background-color: #ffffff;
-    color: #0A2640;
+.block-connect_customer .connect-customer ul li {
+    position: relative;
+    padding-left: 35px;
+    list-style-type: none;
+    line-height: 35px;
 }
 
-.connect-customer .col-2 .row-1 .box-list .list .icon{
-    width: 24px;
-    height: 24px;
+.block-connect_customer .connect-customer .title {
+    line-height: 45px;
+    margin-bottom: 25px;
 }
-.connect-customer .col-2 .row-1 .box-list .list p{
-    margin-bottom: 0px;
+
+.block-connect_customer .connect-customer ul {
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.connect-customer ul li:after {
+    position: absolute;
+    content: '';
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    left: 0;
+    top: 4px;
+    background-color: #0A2640;
+}
+
+.connect-customer ul li:before {
+    position: absolute;
+    z-index: 4;
+    content: '';
+    width: 15px;
+    height: 15px;
+    padding: 2px;
+    left: 1px;
+    top: 5px;
+    background: url("/images/check.png");
+    background-repeat: no-repeat;
+}
+
+.block-connect_customer .connect-customer .media {
+    position: relative;
+    max-width: 500px;
+    padding: 20px;
+}
+
+/* .block-connect_customer .connect-customer .media img{
+    width: 100%;
+} */
+
+.block-connect_customer .connect-customer .media::after {
+    position: absolute;
+    content: "";
+    width: 250px;
+    height: 350px;
+    top: 250px;
+    left: 180px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.12);
+
+}
+
+.block-connect_customer .connect-customer .media::before {
+    position: absolute;
+    z-index: 5;
+    content: "";
+    width: 250px;
+    height: 380px;
+    top: 275px;
+    left: 215px;
+    border-radius: 10px;
+    background: url("/images/top-icon.png");
+    background-repeat: no-repeat;
+
+}
+
+@media (max-width: 576px) {
+    .block-connect_customer .connect-customer .media img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .block-connect_customer .connect-customer .media::after {
+        position: absolute;
+        content: "";
+        width: 199px;
+        height: 336px;
+        top: 106px;
+        left: 65px;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.12);
+
+    }
+
+    .block-connect_customer .connect-customer .media::before {
+        position: absolute;
+        z-index: 5;
+        content: "";
+        width: 185px;
+        height: 318px;
+        top: 115px;
+        left: 83px;
+        border-radius: 10px;
+        background: url("/images/top-icon.png");
+        background-repeat: no-repeat;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .block-connect_customer .connect-customer .title {
+        line-height: 38px;
+        font-size: 30px;
+        margin-bottom: 15px;
+        margin-top: 100px;
+    }
+
+    .block-connect_customer .connect-customer ul {
+        line-height: 30px;
+        margin: 25px 0;
+    }
+}
+
+@media (min-width: 990px) {
+
+    .block-connect_customer .connect-customer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        /* gap: 150px; */
+    }
+}
+
+@media (min-width: 990px) {
+
+    .block-connect_customer .connect-customer .right-content {
+        padding-left: 150px;
+    }
 }

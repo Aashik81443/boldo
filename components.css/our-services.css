@@ -1,0 +1,26 @@
+.our-services{
+    background-color: #0A2640;
+}
+.our-services .section-title{
+    font-size: 20px;
+    line-height: 32px;
+    color: #F1F1F1;
+    text-align: center;
+    padding-top: 82px;
+}
+.our-services .heading{
+    text-align: center;
+    padding: 0px 275px 70px 284px;
+
+}
+.our-services .heading h2{
+    color: #ffffff;
+}
+
+.our-services .cards{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    padding-bottom: 96px;
+    
+}

@@ -1,0 +1,26 @@
+.team-member-card-horizontal {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.team-member-card-horizontal .media img {
+    border-radius: 24px;
+    object-fit: cover;
+}
+
+.team-member-card-horizontal .member .name {
+    margin-bottom: 12px;
+}
+
+.team-member-card-horizontal .member .name h3 {
+    font-size: 28px;
+    line-height: 48px;
+}
+
+.team-member-card-horizontal .member .position p {
+    color: #777;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}

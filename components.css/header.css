@@ -1,26 +1,34 @@
-.site-header {
-    margin: 56px auto;
+li{
+    list-style-type: none;
+    padding: 5px 10px;
+    margin: 0 20px;
 }
 
-.site-header .row {
-    display: flex;
-    gap: 654px;
-    align-items: center;
+.nav-bar li:last-child{
+    margin-right: 0 !important;
 }
-
-.site-header .nav p {
+li a{
+    color: #0A2640;
     font-weight: 600;
-    margin-bottom: 0;
 }
 
-.site-header .nav .btn {
-    padding: 8px 40px;
-    font-size: 16px;
-    line-height: 24px;
+.site-header{
+    padding: 55px 0px;
 }
-
-.site-header .nav {
+.site-header .header-wrap{
     display: flex;
-    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header-wrap .nav-bar ul{
+    display: flex;
     align-items: center;
+}
+
+@media (max-width: 768px) {
+
+    .site-header .nav-bar{
+        display: none;
+    }
 }

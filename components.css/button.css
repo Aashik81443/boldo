@@ -3,12 +3,11 @@ a{
 }
 .btn{
     display: inline-block;
-    padding: 16px 54px;
+    padding: 3px 25px;
     border-radius: 56px;
     border: 2px solid #0A2640;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
-    line-height: 28px;
 }
 .btn-primary{
     background:#0A2640;
@@ -18,9 +17,4 @@ a{
 
     background-color: #ffffff;
     color: #0A2640;
-}
-.buttons{
-    margin-left: 20px;
-    display: flex;
-    gap: 20px;
 }

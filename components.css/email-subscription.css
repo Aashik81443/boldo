@@ -7,6 +7,8 @@
 }
 
 .email-subscription_card .card-title {
+    position: relative;
+    z-index: 5;
     color: white;
     line-height: 55px;
     margin-bottom: 50px;
@@ -14,11 +16,24 @@
 }
 
 .email-subscription_card {
+    position: relative;
     background-color: #0A2640;
     padding: 75px 30px;
     display: flex;
     justify-content: center;
     border-radius: 12px;
+    overflow: hidden;
+}
+.email-subscription_card::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    z-index: 1;
+    width: 700px;
+    height: 250px;
+    background-image: url("/images/ellipse.png");
+    background-repeat: no-repeat;
 }
 
 .email-subscription_card .card-wrap {
@@ -48,5 +63,18 @@
     .email-subscription_card .card-title {
         font-size: 40px;
         margin-bottom: 35px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .email-subscription_card::after{
+        position: absolute;
+        content: "";
+        top: -40px;
+        right: -150px;
+        z-index: 1;
+        background-image: url("/images/ellipse.png");
+        background-repeat: no-repeat;
     }
 }

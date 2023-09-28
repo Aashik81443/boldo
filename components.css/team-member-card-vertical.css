@@ -1,0 +1,23 @@
+.team-member-card-vertical .media img {
+    border-radius: 24px;
+}
+
+.team-member-card-vertical .media {
+    margin-bottom: 24px;
+}
+
+.team-member-card-vertical .member .name {
+    margin-bottom: 12px;
+}
+
+.team-member-card-vertical .member .name h3 {
+    font-size: 28px;
+    line-height: 48px;
+}
+
+.team-member-card-vertical .member .position p {
+    color: #777;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}

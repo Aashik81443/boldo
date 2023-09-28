@@ -1,0 +1,19 @@
+    /* connectcustomer-card css  */
+    .card-1 .front-img{
+        position: absolute;
+        margin-top: -320px;
+        margin-left: 150px;
+    
+    }
+    .card-1 .back-img{
+        position: relative;
+    
+    }
+    .card-2 .front-img{
+        position: absolute;
+        margin-top: -250px;
+        margin-left: 24px;
+    }
+    .card-2 .back-img{
+        position: relative;
+    }

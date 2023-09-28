@@ -1,0 +1,97 @@
++.site-footer{
+    padding: 100px 0;
+}
+.site-footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    justify-content: space-between;
+}
+
+.site-footer .left-content{
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 15px;
+}
+.site-footer .left-content .media{
+    padding: 10px;
+}
+
+.site-footer .left-content span{
+    padding: 10px;
+}
+
+.site-footer .right-content{
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 15px;
+}
+
+.site-footer .left-content .description {
+    max-width: 300px;
+    padding: 10px;
+}
+
+.site-footer .right-content .heading {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.site-footer .right-content ul li {
+    list-style-type: none;
+    
+}
+
+.right-content ul li a {
+    color: var(--Gray, #777);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.footer-navigation{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.footer-navigation .nav-wrap{
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 15px;
+}
+
+@media (min-width: 576px) {
+
+    .footer-navigation .nav-wrap{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+@media (min-width: 768px) {
+
+    .footer-navigation .nav-wrap{
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+}
+
+@media (min-width: 992px) {
+.site-footer .left-content{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+}
+.site-footer .right-content{
+    flex: 0 0 65%;
+    max-width: 65%;
+}
+
+.footer-navigation{
+    justify-content: space-between;   
+}
+
+}

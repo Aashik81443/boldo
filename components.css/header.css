@@ -13,11 +13,12 @@
 }
 
 .site-header{
-    padding: 55px 0px;
+    padding: 25px 0px;
 }
 .site-header .header-wrap{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -28,10 +29,23 @@
 
 .header-wrap .hamburger-menu{
     display: block;
-    width: 40px;
-    height: 40px;
-    background-color: black;
+    width: 36px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
     cursor: pointer;
+}
+.header-wrap .hamburger-menu span{
+    display: block;
+    width: 40px;
+    height: 3px;
+    margin-bottom: 7px;
+    border-radius: 12px;
+    background: black
+}
+.header-wrap .hamburger-menu span:last-child{
+margin-bottom: 0;
 }
 
 @media (max-width: 991.98px) {
@@ -41,6 +55,9 @@
     }
 }
 @media (min-width: 992px) {
+    .site-header{
+        padding: 35px 0px;
+    }
 
     .header-wrap .hamburger-menu{
         display: none;

@@ -1,44 +1,52 @@
-.email-subscription{
+.email-subscription_card .card-bottom input {
+    background-color: white;
+    padding: 15px 45px;
+    border: 2px solid black;
+    border-radius: 22px;
+
+}
+
+.email-subscription_card .card-title {
+    color: white;
+    line-height: 55px;
+    margin-bottom: 50px;
+
+}
+
+.email-subscription_card {
     background-color: #0A2640;
-    border-radius: 12px;
-
-}
-.email-subscription img{
-    margin-left: 505px;
-    border-radius:0px 12px 0px 0px ;
-}
-.email-subscription .col-1 h2{
-    color: #ffffff;
-    text-align: center;
-    justify-content: center;
-    padding-left: 250px;
-    padding-right: 250px;
-    margin-top: -130px;
-    line-height: 72px;
-}
-.email-subscription .col-2{
+    padding: 75px 30px;
     display: flex;
-    gap: 24px;
-    align-items:flex-start;
-    margin-top: 50px;
-    padding-bottom: 74px;
     justify-content: center;
+    border-radius: 12px;
 }
-.email-subscription .col-2 .email p{
-    display: inline-block;
-    padding: 18px 152px 18px 32px;
-    border-radius: 56px;
-    border: 2px solid #0A2640;
-    font-size: 20px;
-    color: black;
-    background-color: #ffffff;
-    margin-bottom: 0px;
-    
+
+.email-subscription_card .card-wrap {
+    max-width: 750px;
+    text-align: center;
 }
-.email-subscription .col-2 .btn-primary{
 
-    border: 2px solid #65E4A3;
-     background-color: #65E4A3;
-    color: #0A2640;
+.email-subscription_card .card-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
 
+@media (max-width: 576px) {
+
+    .email-subscription_card .card-bottom {
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 25px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .email-subscription_card .card-title {
+        font-size: 40px;
+        margin-bottom: 35px;
+    }
 }

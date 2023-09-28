@@ -3,7 +3,7 @@ a{
 }
 .btn{
     display: inline-block;
-    padding: 3px 25px;
+    padding: 5px 25px;
     border-radius: 56px;
     border: 2px solid #0A2640;
     font-size: 16px;
@@ -17,4 +17,10 @@ a{
 
     background-color: #ffffff;
     color: #0A2640;
+}
+
+.btn-tertiary{
+    border: none;
+    color: black;
+    background-color: #65E4A3;
 }

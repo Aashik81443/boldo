@@ -1,0 +1,24 @@
+.testimonial{
+    background-color: #0A2640;
+}
+.testimonial .section-content{
+    padding: 100px 80px;
+}
+.testimonial .section-col-1{
+    display: flex;
+    gap: 350px;
+    align-items:flex-end;
+    padding-bottom: 75px;
+}
+.testimonial .section-col-1 .arrow{
+    display: flex;
+    gap: 30px;
+}
+.testimonial .section-col-1 h3{
+    color: #FFF;
+}
+.testimonial .section-col-2{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}

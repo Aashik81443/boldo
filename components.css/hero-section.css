@@ -1,0 +1,31 @@
+.hero-section {
+    margin: 24px 0;
+}
+
+ .bg-img {
+    text-align: right;
+    /* margin-top: -100px; */
+}
+
+.hero-section .col-1 .hero-description p {
+    color: #777;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.hero-section .container {
+    display: flex;
+    gap: 106px;
+}
+
+.hero-section .col-1 .hero-title {
+    margin-bottom: 16px;
+}
+
+.hero-section .col-1 .hero-cta {
+    margin-top: 48px;
+    margin-bottom: 24px;
+    display: flex;
+    gap: 24px;
+}

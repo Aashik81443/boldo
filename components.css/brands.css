@@ -1,0 +1,15 @@
+.brands {
+    margin-top: 100px;
+    margin-bottom: 82px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.brands .container {
+    padding: 0px;
+}
+
+.brands .brand-logos {
+    display: flex;
+    gap: 48px;
+}

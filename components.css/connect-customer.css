@@ -142,3 +142,12 @@
         padding-left: 150px;
     }
 }
+
+.connectcustomer{
+    padding: 50px 0;
+}
+@media (min-width: 768px){
+    .connectcustomer{
+        padding: 100px 0;
+    }
+}

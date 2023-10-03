@@ -35,7 +35,7 @@
     padding: 2px;
     left: 1px;
     top: 5px;
-    background: url("/images/check.png");
+    background: url("../images/check.png");
     background-repeat: no-repeat;
 }
 

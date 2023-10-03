@@ -8,7 +8,6 @@ function onScroll() {
         header.classList.add('sticky');
     } else {
         header.classList.remove('sticky');
-
     }
 }
 

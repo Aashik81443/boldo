@@ -50,7 +50,7 @@
 .our-blog{
     background-color: #0A2640;
     color: #fff;
-    padding:120px 0px;
+    padding:120px 0px 40px 0px;
 }
 .our-blog .title{
     text-align: center;
@@ -65,7 +65,19 @@
     border-top: 1px solid #fff;
     margin-bottom: 84px;
 }
+.our-blog .blog-content .content h2{
+    color: #fff;
+    width: 550px;
+}
+.our-blog .blog-content .content p{
+    width: 500px;
+    font-size: 20px;
+    line-height: 32px;
+    margin-left: 150px;
+}
+
 .our-blog .blog-content .content{
-    display: flex;
-    gap: 400px;
+    /* gap: 90px;  */
+    display:flex;
+    margin-bottom: 80px;
 }

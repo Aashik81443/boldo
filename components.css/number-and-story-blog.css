@@ -47,36 +47,36 @@
     padding-right: 350px;
 }
 /* blog sction starts here */
-.our-blog{
+.our-blog-aboutpage{
     background-color: #0A2640;
     color: #fff;
     padding:120px 0px 40px 0px;
 }
-.our-blog .title{
+.our-blog-aboutpage .title{
     text-align: center;
     padding: 0px 200px;
 }
-.our-blog .title h2{
+.our-blog-aboutpage .title h2{
     color: #fff;
     margin-top: 12px;
     margin-bottom: 36px;
 }
-.our-blog .line{
+.our-blog-aboutpage .line{
     border-top: 1px solid #fff;
     margin-bottom: 84px;
 }
-.our-blog .blog-content .content h2{
+.our-blog-aboutpage .blog-content .content h2{
     color: #fff;
     width: 550px;
 }
-.our-blog .blog-content .content p{
+.our-blog-aboutpage .blog-content .content p{
     width: 500px;
     font-size: 20px;
     line-height: 32px;
     margin-left: 150px;
 }
 
-.our-blog .blog-content .content{
+.our-blog-aboutpage .blog-content .content{
     /* gap: 90px;  */
     display:flex;
     margin-bottom: 80px;

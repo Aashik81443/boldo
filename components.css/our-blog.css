@@ -1,23 +1,23 @@
-.our-blog {
+.our-blog-index {
     margin-top: 150px;
 }
-.our-blog .section-title p{
+.our-blog-index .section-title p{
         color: #777777;
         text-align: center;
         margin-bottom: 12px;
 }
-.our-blog .section-heading h2{
+.our-blog-index .section-heading h2{
     text-align: center;
     padding-left: 250px;
     padding-right: 250px;
     margin-bottom: 80px;
 }
-.our-blog .cards{
+.our-blog-index .cards{
     display: flex;
     gap: 50px;
     justify-content: center;
 }
-.our-blog .btn-wrap{
+.our-blog-index .btn-wrap{
    text-align: center;
     margin-top: 100px;
     

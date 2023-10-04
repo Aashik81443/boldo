@@ -49,6 +49,10 @@
 margin-bottom: 0;
 }
 
+.site-header.site-header--alt{
+    margin-top: 15px;
+    background-color: #65E4A3;
+}
 @media (max-width: 991.98px) {
 
     .site-header .nav-bar{

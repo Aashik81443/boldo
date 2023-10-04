@@ -1,0 +1,71 @@
+/* our number css */
+.our-number{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+.our-number .title p{
+    color: #0A2640;
+    text-align: center;
+}
+.our-number .title h2{
+    color: #0A2640;
+    text-align: center;
+    padding: 12px 100px 86px 100px;
+}
+.our-number .num-count .count h1{
+    font-size: 96px;
+    color: #0A2640;
+    margin-bottom: 10px;
+}
+.our-number .num-count .count p{
+    color: #0A2640;
+    font-size: 24px;
+    line-height: 36px;
+}
+.our-number .num-count{
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+}
+/* our story css */
+.our-story{
+    background-color: #0A2640;
+    color: #fff;
+}
+.our-story .content{
+    padding: 120px 0px;
+}
+.our-story .content h2{
+    color:#fff;
+    margin-top: 12px;
+    margin-bottom: 30px;
+    padding-left: 250px;
+    padding-right: 180px;
+}
+.our-story .content p{
+    padding-left: 250px;
+    padding-right: 350px;
+}
+/* blog sction starts here */
+.our-blog{
+    background-color: #0A2640;
+    color: #fff;
+    padding:120px 0px;
+}
+.our-blog .title{
+    text-align: center;
+    padding: 0px 200px;
+}
+.our-blog .title h2{
+    color: #fff;
+    margin-top: 12px;
+    margin-bottom: 36px;
+}
+.our-blog .line{
+    border-top: 1px solid #fff;
+    margin-bottom: 84px;
+}
+.our-blog .blog-content .content{
+    display: flex;
+    gap: 400px;
+}
